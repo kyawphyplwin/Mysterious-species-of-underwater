@@ -1,0 +1,44 @@
+@font-face{
+	font-family: 'CrimsonBI';
+	src:url('font/CrimsonText-BoldItalic.ttf');
+}
+@font-face{
+	font-family: 'CrimsonB';
+	src:url('font/CrimsonText-Bold.ttf');
+
+}
+@font-face{
+	font-family: 'CrimsonI';
+	src:url('font/CrimsonText-Italic.ttf');
+
+}
+
+@font-face{
+	font-family: 'RobotoB';
+	src:url('font/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: 'RobotoBI';
+	src:url('font/Roboto-BlackItalic.ttf');
+
+}
+@font-face{
+	font-family: 'RobotoL';
+	src:url('font/Roboto-Light.ttf');
+
+}
+@font-face{
+	font-family: 'SenB';
+	src:url('font/Sen-Bold.ttf');
+
+}
+@font-face{
+	font-family: 'SenEB';
+	src:url('font/Sen-ExtraBold.ttf');
+
+}
+@font-face{
+	font-family: 'SenR';
+	src:url('font/Sen-Regular.ttf');
+
+}

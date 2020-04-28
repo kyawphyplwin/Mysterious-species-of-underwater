@@ -1,0 +1,208 @@
+.row img{
+	width: 430px;
+	height: 200px;
+}
+.navbar-custom {
+    background-color: #006699;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ccffff;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ff11ff;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff33ff;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+    background-color: #34dd34;
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #191919;
+    background-color: #23cc23;
+}
+
+
+* {
+	font-family: Cormorant_Garamond_Regular;
+}
+#headerh1{
+	font-family: SenB;
+}
+
+#headertitle {
+	font-family: SenB;
+}
+.nav-link:hover {
+	color: #ED1010;	
+}
+
+
+#divider{
+	/*1rem=60px*/
+	max-width: 3.25rem;
+	border-width:.2rem;
+	border-color: #ccffff;
+
+}
+
+#headermain{
+	padding: 1.25rem 2.25rem;
+	font-size: .85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border:none;
+	border-radius: 10rem;
+	background-color:#000099;
+}
+
+#headermain:hover {
+	background-color: #ff704d;
+}
+
+#secbanner {
+	background: linear-gradient(to bottom, rgba(102,204,255, 0.4)0,rgba(102,204,255, 0.4)100%),url(images/secbanner1.png);
+	width: 100%;
+	height: 40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#sec-text {
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+
+h4#color {
+	color: #0000cc;
+}
+
+table p, .small-text {
+	font-size: 10px;
+}
+
+#img-size {
+	width: 300px;
+	height: 500px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size:40px;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: blue;
+}
+
+.carousel-indicators li {	
+	background-color: #2e2eb8;
+	border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-indicators .active {
+  background-color: blue;
+}
+
+#footer {
+	background-color: #2e2eb8;
+}
+
+#footer p, a, span {
+	color: white;
+}
+
+.page-link:hover {
+	background-color: #ff704d;
+	color: white;
+}
+
+#banner1 {
+	background: linear-gradient(to bottom, rgba(102,204,255,0.4)0, rgba(102,204,255,0.4)100%), url('images/banner1.jpg');
+	width: 100%;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#banner2 {
+	background: linear-gradient(to bottom, rgba(102,204,255,0.4)0, rgba(102,204,255,0.4)100%), url('images/banner2.jpg');
+	width: 100%;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#banner3 {
+	background: linear-gradient(to bottom, rgba(102,204,255,0.4)0, rgba(102,204,255,0.4)100%), url('images/banner3.jpg');
+	width: 100%;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.nav-link:hover {
+	color: #ED1010;	
+}
+
+iframe {
+	padding: 0 10px 0 10px;
+}
+
+div.box {
+	border: 1px solid #B5B2B2;
+	background-color: #E7E7E7;
+	border-radius: 5px;
+}
+
+#sendMsg {
+	border: 1px;
+	border-radius: 50px;
+	background-color: #0000ff;
+	color: #FFF;
+	height: 70px;
+	width: 200px;
+}
+
+#sendMsg:hover {
+	opacity: 0.9;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ED1010;
+  background-color: #007bff;
+}
